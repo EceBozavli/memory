@@ -8,111 +8,111 @@ const defaultCards = [
   {
     id: crypto.randomUUID(),
     name: "bottle",
-    path: "./public/img/bottle.svg",
+    path: "./img/bottle.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "capa",
-    path: "./public/img/capa.svg",
+    path: "./img/capa.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "futbol",
-    path: "./public/img/futbol.svg",
+    path: "./img/futbol.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "hand-spock",
-    path: "./public/img/hand-spock.svg",
+    path: "./img/hand-spock.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "car",
-    path: "./public/img/car.svg",
+    path: "./img/car.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "moon",
-    path: "./public/img/moon.svg",
+    path: "./img/moon.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "snowflake",
-    path: "./public/img/snowflake.svg",
+    path: "./img/snowflake.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "sun",
-    path: "./public/img/sun.svg",
+    path: "./img/sun.svg",
     isShow: false,
     matched: false
   },{
     id: crypto.randomUUID(),
     name: "bottle",
-    path: "./public/img/bottle.svg",
+    path: "./img/bottle.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "capa",
-    path: "./public/img/capa.svg",
+    path: "./img/capa.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "futbol",
-    path: "./public/img/futbol.svg",
+    path: "./img/futbol.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "hand-spock",
-    path: "./public/img/hand-spock.svg",
+    path: "./img/hand-spock.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "car",
-    path: "./public/img/car.svg",
+    path: "./img/car.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "moon",
-    path: "./public/img/moon.svg",
+    path: "./img/moon.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "snowflake",
-    path: "./public/img/snowflake.svg",
+    path: "./img/snowflake.svg",
     isShow: false,
     matched: false
   },
   {
     id: crypto.randomUUID(),
     name: "sun",
-    path: "./public/img/sun.svg",
+    path: "./img/sun.svg",
     isShow: false,
     matched: false
   }
