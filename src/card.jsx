@@ -13,7 +13,7 @@ const Card = ({ card, handleSelected, disabled }) => {
           (card.matched || card.isShow) ? 
           <img src={card.path} className="InnerCard" />
           :
-          <img onClick={handleClick} src="./public/kapak/kapak.svg" className="UpperCard" />
+          <img onClick={handleClick} src="./kapak/kapak.svg" className="UpperCard" />
         }
       </div>
     </div>
