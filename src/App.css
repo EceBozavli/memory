@@ -1,0 +1,189 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Atkinson Hyperlegible';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 165px;
+  margin-top: 68px;
+  margin-bottom: 106px;
+}
+
+.gameName {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.6px;
+  color: #152938;
+}
+
+.RestartBtn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: center;
+  width: 127px;
+  height: 52px;
+  border-radius: 26px;
+  color: #FCFCFC;
+  border-color: transparent;
+  background-color: #FDA214;
+  margin-right: 16px;
+}
+
+.NewGameBtn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: center;
+  width: 149px;
+  height: 52px;
+  border-radius: 26px;
+  color: #304859;
+  border-color: transparent;
+  background-color: #DFE7EC;
+}
+
+.InnerCard {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.UpperCard {
+  width: 118px;
+  height: 118px;
+  position: relative;
+}
+
+.TotalCards {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  width: max-content;
+  gap: 16px;
+  margin-inline: auto;
+}
+
+.cardsSection {
+  position: relative;
+}
+
+.card-item {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-item.passive {
+  background-color: #FDA214;
+}
+
+.card-item.active {
+  background-color: #BCCED9;
+  transform: scale(0.95);
+}
+
+.cardsSection {
+  overflow: hidden;
+}
+
+.Moves {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+  text-align: left;
+  width: 255px;
+  height: 72px;
+  border-radius: 10px;
+  color: #7191A5;
+  background-color: #DFE7EC;
+  padding-block: 17px;
+  padding-left: 21px;
+  margin-inline: auto;
+  margin-top: 126px;
+
+  span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.68px;
+    color: #304859;
+    margin-left: 120px;
+  }
+}
